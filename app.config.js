@@ -61,6 +61,7 @@ export default {
     },
     extra: {
       geminiApiKey: process.env.GEMINI_API_KEY,
+      firebaseApiKey: process.env.FIREBASE_API_KEY,
     },
   }
 };

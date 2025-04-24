@@ -3,9 +3,10 @@ import { getAuth, initializeAuth, getReactNativePersistence } from "firebase/aut
 import { getFirestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 import ReactNativeAsyncStorage from "@react-native-async-storage/async-storage";
+import { FIREBASE_API_KEY } from '@env';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBj_FHu3kZbU_9SxWJcToHyckrCif0q7iM",
+  apiKey: FIREBASE_API_KEY,
   authDomain: "mydiettracker-d2052.firebaseapp.com",
   projectId: "mydiettracker-d2052",
   storageBucket: "mydiettracker-d2052.firebasestorage.app",
